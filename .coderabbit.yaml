@@ -9,6 +9,7 @@ reviews:
     - "!*.md"
     - "!.env.template"
     - "!fly.toml"
+    - "!.claude/**"
 
 chat:
   auto_reply: true
