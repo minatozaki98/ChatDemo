@@ -1,0 +1,14 @@
+language: en-US
+
+reviews:
+  auto_review:
+    enabled: true
+    drafts: false
+  path_filters:
+    - "!docs/**"
+    - "!*.md"
+    - "!.env.template"
+    - "!fly.toml"
+
+chat:
+  auto_reply: true
