@@ -4,12 +4,25 @@ reviews:
   auto_review:
     enabled: true
     drafts: false
+  review_scope: "full"
   path_filters:
     - "!docs/**"
     - "!*.md"
+    - "!.env"
+    - "!.env.*"
     - "!.env.template"
     - "!fly.toml"
     - "!.claude/**"
+    - "!__pycache__/**"
+    - "!*.pyc"
+    - "!.mypy_cache/**"
+    - "!.ruff_cache/**"
+    - "!dist/**"
+    - "!frontend/dist/**"
+    - "!node_modules/**"
+    - "!.venv/**"
+    - "!*.egg-info/**"
+    - "!.pytest_cache/**"
 
 chat:
   auto_reply: true
