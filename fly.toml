@@ -1,4 +1,4 @@
-app = "chatdemo"
+app = "chatdemo-dev"
 primary_region = "iad"
 
 [build]

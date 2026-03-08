@@ -1,0 +1,14 @@
+.git
+.env
+.env.*
+.claude/
+__pycache__
+*.pyc
+.mypy_cache
+.ruff_cache
+.venv
+node_modules
+frontend/dist
+chatdemo.egg-info
+fly-logs.txt
+fly-err.txt
